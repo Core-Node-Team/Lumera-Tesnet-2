@@ -1,0 +1,1706 @@
+{
+  "app_name": "lumerad",
+  "app_version": "1.6.0",
+  "genesis_time": "2025-07-02T16:00:00Z",
+  "chain_id": "lumera-testnet-2",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "06-solomachine": null,
+    "07-tendermint": null,
+    "action": {
+      "params": {
+        "base_action_fee": {
+          "denom": "ulume",
+          "amount": "10000"
+        },
+        "fee_per_kbyte": {
+          "denom": "ulume",
+          "amount": "10"
+        },
+        "max_actions_per_block": "10",
+        "min_super_nodes": "1",
+        "max_dd_and_fingerprints": "50",
+        "max_raptor_q_symbols": "50",
+        "expiration_duration": "86400s",
+        "min_processing_time": "60s",
+        "max_processing_time": "3600s",
+        "super_node_fee_share": "0.980000000000000000",
+        "foundation_fee_share": "0.020000000000000000"
+      }
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1t7akg3w5wdqjtyrxk2utx0qv38zq0uxq6f8cpe",
+              "pub_key": null,
+              "account_number": "0",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "5000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1766980800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera13mq77t44m3x8xx4pzcxz4hu8x7e3lm6znmaq9s",
+              "pub_key": null,
+              "account_number": "1",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "5000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1782532800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1q669u520hc3w4xuly08w9w97uzlt08ugzpszu2",
+              "pub_key": null,
+              "account_number": "2",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "5000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1798084800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera135a3ccpu96acwatcv3vu87hrdft3vygnn90y9g",
+              "pub_key": null,
+              "account_number": "3",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "5000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1813636800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1wxvpqdn24cq7lfkeldzmk0pqjrute3ntxfmne2",
+              "pub_key": null,
+              "account_number": "4",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "5000000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1829188800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1sjawn3ng2jy3hzzkgn8z7zhml77ecgg8887utm",
+              "pub_key": null,
+              "account_number": "5",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "6250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1766980800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera18zknk0v45dgh04g4w5wnj5ycuavawakjpscrvy",
+              "pub_key": null,
+              "account_number": "6",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "6250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1777348800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera157sqg8wp6m4ktql7vp3p3me459pe0jwlexanxy",
+              "pub_key": null,
+              "account_number": "7",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "6250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1787716800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera17rsfhj4lup7zvzhg5s6r20f296ve6zects6mgv",
+              "pub_key": null,
+              "account_number": "8",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "6250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1798084800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1n2npu07dy93fl0jkp2jsvtl40f5cmnv5yt4r2h",
+              "pub_key": null,
+              "account_number": "9",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "6250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1808452800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1u8l3za8dwqtyp09e2qzhq3jvae0lpaqa4ay84t",
+              "pub_key": null,
+              "account_number": "10",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "6250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1818820800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera17f26xxu6amynf5yz3dej8p4rj9c5pmllv6c652",
+              "pub_key": null,
+              "account_number": "11",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "8333333340000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1769572800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1jpfzten3376c7su2e4jlekxca9mpjulyj2d3ah",
+              "pub_key": null,
+              "account_number": "12",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "8333333340000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1785124800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1azmq5kctlt3lxl06xuyx8g72re3j3v7svzuhxm",
+              "pub_key": null,
+              "account_number": "13",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "8333333330000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1800676800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1xr0r3kn7c26n8zrjyxc8uheuzk3uzwz7j36uzr",
+              "pub_key": null,
+              "account_number": "14",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "8333333330000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1816228800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1ypac9xdsp8cek6xkdu5cwfh45w9ds6exmz3kwt",
+              "pub_key": null,
+              "account_number": "15",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "8333333330000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1831780800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1k0ncw89fuf4m2kxq8xtn9jl9tvzxrcmyavfna9",
+              "pub_key": null,
+              "account_number": "16",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "8333333330000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1847332800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera18vgjhax2t70dazg3mjcmt9gvkzzrd9cxt8atxw",
+              "pub_key": null,
+              "account_number": "17",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "1250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1790308800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera16hmjuy9f8q7jqv9r0rd53vs4e06dhtyk0gsc0m",
+              "pub_key": null,
+              "account_number": "18",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "1250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1798084800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera13p7r97dqu4psfnd22w7wls96hp2wk7au3968qk",
+              "pub_key": null,
+              "account_number": "19",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "1250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1805860800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1udpts93xktqm2l5fvd7artwug4zsyfc2q9qy3d",
+              "pub_key": null,
+              "account_number": "20",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "1250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1813636800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1whkl73dcvntp7ec9ly90t4hyjksja32que5yc3",
+              "pub_key": null,
+              "account_number": "21",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "1250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1821412800"
+          }
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "lumera1sy704ynsvtn85krvjjwa6vmwpt8aw73q0w8emr",
+          "pub_key": null,
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "lumera19hyt0x9lz83m9ndm7qcrqd84p72eem4u3lp4gq",
+          "pub_key": null,
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1sg7cwjm9se2txz526ha3z4vcwky369hgduafn0",
+              "pub_key": null,
+              "account_number": "24",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "11250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1754020800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1egptga2lsnvw539hjqkt7y2zlg0pjvpn843vr2",
+              "pub_key": null,
+              "account_number": "25",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "11250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1759204800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1mh5uh5h0arvnl5vydk6h3t8qt7emcs9t8v0xv7",
+              "pub_key": null,
+              "account_number": "26",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "11250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1766980800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera1ta28vjms54sswpvs2um25v5jw0z5zmwjd3asjn",
+              "pub_key": null,
+              "account_number": "27",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "11250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1774756800"
+          }
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera14er25a3tgvm4nle6dyun75z23w5c3kztkqmlh5",
+              "pub_key": null,
+              "account_number": "28",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "11250000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1782532800"
+          }
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "lumera1dmd353gv3pr6dqgey6t7zpzn25npxtfk6m7s7f",
+          "pub_key": null,
+          "account_number": "29",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "lumera17mhcq0cf7qfkgw09er0xzu3u8rhumd4ajs6tf8",
+              "pub_key": null,
+              "account_number": "30",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "ulume",
+                "amount": "12500000000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "1782532800"
+          },
+          "start_time": "1754020800"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "lumera1x7f7mhf9azwmpds2czcqkdv435uqudeg4uvfav",
+          "pub_key": null,
+          "account_number": "31",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "lumera1rq08uj8g74jhsd28n5fe9uk0wfjkwplph9graq",
+          "pub_key": null,
+          "account_number": "32",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "lumera1772e2pq56mzz972te69yhhnvew0eyc5d7k4l5y",
+          "pub_key": null,
+          "account_number": "33",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "lumera19w2488ntfgpduzqq3sk4j5x387zynwkntws20l",
+          "pub_key": null,
+          "account_number": "34",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "lumera1jt9w26mpxxjsk63mvd4m2ynj0af09cslm77a8r",
+          "pub_key": null,
+          "account_number": "35",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "lumera18mghfm88q4hgnchvrhw3h65wspnqueprq93s59",
+          "pub_key": null,
+          "account_number": "36",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "lumera1q669u520hc3w4xuly08w9w97uzlt08ugzpszu2",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1rq08uj8g74jhsd28n5fe9uk0wfjkwplph9graq",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1ypac9xdsp8cek6xkdu5cwfh45w9ds6exmz3kwt",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "8333333330000"
+            }
+          ]
+        },
+        {
+          "address": "lumera19w2488ntfgpduzqq3sk4j5x387zynwkntws20l",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera19hyt0x9lz83m9ndm7qcrqd84p72eem4u3lp4gq",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "11250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1xr0r3kn7c26n8zrjyxc8uheuzk3uzwz7j36uzr",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "8333333330000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1x7f7mhf9azwmpds2czcqkdv435uqudeg4uvfav",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera18zknk0v45dgh04g4w5wnj5ycuavawakjpscrvy",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "6250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera18vgjhax2t70dazg3mjcmt9gvkzzrd9cxt8atxw",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera18mghfm88q4hgnchvrhw3h65wspnqueprq93s59",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1ta28vjms54sswpvs2um25v5jw0z5zmwjd3asjn",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "11250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1t7akg3w5wdqjtyrxk2utx0qv38zq0uxq6f8cpe",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1dmd353gv3pr6dqgey6t7zpzn25npxtfk6m7s7f",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "12500000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1wxvpqdn24cq7lfkeldzmk0pqjrute3ntxfmne2",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1whkl73dcvntp7ec9ly90t4hyjksja32que5yc3",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1sy704ynsvtn85krvjjwa6vmwpt8aw73q0w8emr",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "20000000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1sg7cwjm9se2txz526ha3z4vcwky369hgduafn0",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "11250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1sjawn3ng2jy3hzzkgn8z7zhml77ecgg8887utm",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "6250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera13p7r97dqu4psfnd22w7wls96hp2wk7au3968qk",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera135a3ccpu96acwatcv3vu87hrdft3vygnn90y9g",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera13mq77t44m3x8xx4pzcxz4hu8x7e3lm6znmaq9s",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1jpfzten3376c7su2e4jlekxca9mpjulyj2d3ah",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "8333333340000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1jt9w26mpxxjsk63mvd4m2ynj0af09cslm77a8r",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1n2npu07dy93fl0jkp2jsvtl40f5cmnv5yt4r2h",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "6250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera157sqg8wp6m4ktql7vp3p3me459pe0jwlexanxy",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "6250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera14er25a3tgvm4nle6dyun75z23w5c3kztkqmlh5",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "11250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1k0ncw89fuf4m2kxq8xtn9jl9tvzxrcmyavfna9",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "8333333330000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1egptga2lsnvw539hjqkt7y2zlg0pjvpn843vr2",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "11250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera16hmjuy9f8q7jqv9r0rd53vs4e06dhtyk0gsc0m",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1mh5uh5h0arvnl5vydk6h3t8qt7emcs9t8v0xv7",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "11250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1u8l3za8dwqtyp09e2qzhq3jvae0lpaqa4ay84t",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "6250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1udpts93xktqm2l5fvd7artwug4zsyfc2q9qy3d",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1azmq5kctlt3lxl06xuyx8g72re3j3v7svzuhxm",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "8333333330000"
+            }
+          ]
+        },
+        {
+          "address": "lumera17rsfhj4lup7zvzhg5s6r20f296ve6zects6mgv",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "6250000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera17f26xxu6amynf5yz3dej8p4rj9c5pmllv6c652",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "8333333340000"
+            }
+          ]
+        },
+        {
+          "address": "lumera17mhcq0cf7qfkgw09er0xzu3u8rhumd4ajs6tf8",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "12500000000000"
+            }
+          ]
+        },
+        {
+          "address": "lumera1772e2pq56mzz972te69yhhnvew0eyc5d7k4l5y",
+          "coins": [
+            {
+              "denom": "ulume",
+              "amount": "1000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "ulume",
+          "amount": "231250006000000"
+        }
+      ],
+      "denom_metadata": [
+        {
+          "description": "The native token of the lumera protocol",
+          "denom_units": [
+            {
+              "denom": "ulume",
+              "exponent": 0,
+              "aliases": [
+                "microlume"
+              ]
+            },
+            {
+              "denom": "mlume",
+              "exponent": 3,
+              "aliases": [
+                "millilume"
+              ]
+            },
+            {
+              "denom": "lume",
+              "exponent": 6,
+              "aliases": []
+            }
+          ],
+          "base": "ulume",
+          "display": "lume",
+          "name": "lume",
+          "symbol": "LUME",
+          "uri": "",
+          "uri_hash": ""
+        }
+      ],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "circuit": {
+      "account_permissions": [],
+      "disabled_type_urls": []
+    },
+    "claim": {
+      "params": {
+        "enable_claims": true,
+        "claim_end_time": "1764547200",
+        "max_claims_per_block": "100"
+      },
+      "claim_records": [],
+      "total_claimable_amount": "18751634842166",
+      "claims_denom": "ulume"
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "ulume",
+        "amount": "500000000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Innovating Capital",
+                  "identity": "5EAF80354857733B",
+                  "website": "https://innovating.capital/",
+                  "security_contact": "validator@innovating.capital",
+                  "details": "Innovating Capital is a premier technology fund investing in the next frontier of Web3."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.250000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "lumeravaloper1x7f7mhf9azwmpds2czcqkdv435uqudeg6xl4m0",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "bffHu06J52k2YNWMCDyZRfSPWTcUxKvXwAHKGo+3EkI="
+                },
+                "value": {
+                  "denom": "ulume",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "05df2ce27cd2f2a5c7ecc8ec4d78c9243e39444b@192.168.2.93:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A30/lTS5NRznj0ymbbr9FRDYDKcaRLGUY+Zt5fIWU3dF"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "t0sSeQvdkaEXbC9MAYOpPGFd0dttQQl7PQ8bPO4faFUxRc/PuAuz4S4y/Vgu6QkkT1OBGnb2nW+HFHObWm2zhA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Nodeist",
+                  "identity": "A2E180C6914F7F87",
+                  "website": "https://nodeist.net",
+                  "security_contact": "hello@nodeist.net",
+                  "details": "Nodeist is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@nodeist.net"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "lumeravaloper1rq08uj8g74jhsd28n5fe9uk0wfjkwplpclmlmr",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "eGRKIveYQjMHk2FKEklIa22HU9uzGplSK4iK56cWs68="
+                },
+                "value": {
+                  "denom": "ulume",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "228396bce456ee8dad81adf9db2fd1449d9e2a49@144.217.68.182:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AoudFWeXGsUGzl0xhujAhLvx3KzxmeAvdWrBKqBk8zRI"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "8tXnpSyrnSiU9Oh5IwHczr/2ybAm0kydeEKeCCCbxk9+9+6FVO81pLp4e3L54cr8MBLiLQ6n6I41+E6YxPvfww=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "Aurora Staking",
+                  "identity": "F049739F3753CA28",
+                  "website": "https://aurora-staking.com",
+                  "security_contact": "security@aurora-staking.com",
+                  "details": "Aurora Staking is the next generation staking solution utilizing power of AI"
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.250000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "lumeravaloper1772e2pq56mzz972te69yhhnvew0eyc5d3vxrj8",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "lcnSM+eVvhVbwPg7oZC+J1cPAacxbgg/VHmjkKDWs4A="
+                },
+                "value": {
+                  "denom": "ulume",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "3b78b08bd9d9d0a2b17a944241a849ce04d8607e@192.168.2.93:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "A/T6L2Y6H5ckv4AdhFMX7bJg7Ftu9qLYjVWPjXOk6ydI"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "p7G58YMOp/5VBXswmqS0qoqg8FaPzPnWjzDSHkfxdshS3uHM6009vl7k9JKG3k0vlhpN/FKe3JL1dgMwDA9sqg=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "RHINO 🦏",
+                  "identity": "59C635D1CD02FEEC",
+                  "website": "https://rhinostake.com",
+                  "security_contact": "support@rhinostake.com",
+                  "details": "Blockchain infrastructure at institutional standards. Multi-region reliability, enterprise SLAs, and slash protection insurance. We build trust into every block."
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.250000000000000000",
+                  "max_change_rate": "0.050000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "lumeravaloper18mghfm88q4hgnchvrhw3h65wspnquepr0lzvjx",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "kR7g1k4Ow+nZr/oW3Ujx8hyRZT7NeW3Qsp889HGyLpY="
+                },
+                "value": {
+                  "denom": "ulume",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "345a910211c7eb5ae5d124683f24c25d54db767d@10.254.100.12:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AlpbgZxao/JRONCoMRiMi4GqQSSLuIw4ao092+blkL3F"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "HSuBdEzUoNva1UJmp2dJYhsBXPJrbxIla+nJ8sioncURn/u5YuKoro1bO7J1URz3emOh4ctIc4wxX1AtlWxrjQ=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "kingnodes 👑",
+                  "identity": "30E6CD38D9721222",
+                  "website": "https://kingnodes.com",
+                  "security_contact": "security@kingnodes.com",
+                  "details": "Enterprise web3 infrastructure provider. https://x.com/kingnodes"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.200000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "lumeravaloper19w2488ntfgpduzqq3sk4j5x387zynwkny5rkfu",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "oru4wXCAqBOKIPgSFBTYTj3f72OCsbFq00BpyCKiwxE="
+                },
+                "value": {
+                  "denom": "ulume",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "aeb7867b6ac0df3aa99f1a1265b50b0331d5415d@160.250.106.34:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AhHs+4Sx10vIdWyHU0GU7Xn+ukDtNy0UeHdQ01jtOkKJ"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "AzW+sRYuRpI3JDnCWEoDRbBnc8Lg4ZK4y77hBTKTsPZCXjaB3j+wRLkfIY+WjyrVoz4LM2pXtD4PVLWJPc+yZA=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "polkachu.com",
+                  "identity": "0A6AF02D1557E5B4",
+                  "website": "https://polkachu.com",
+                  "security_contact": "hello@polkachu.com",
+                  "details": "Polkachu is the trusted staking service provider for blockchain projects. 100% refund for downtime slash. Contact us at hello@polkachu.com"
+                },
+                "commission": {
+                  "rate": "0.050000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "lumeravaloper1jt9w26mpxxjsk63mvd4m2ynj0af09csl5ydppq",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "zTSmj3PGKxq/fQbqxr1gobeVgOqlxzAjPzAHrOvpruQ="
+                },
+                "value": {
+                  "denom": "ulume",
+                  "amount": "1000000"
+                }
+              }
+            ],
+            "memo": "5b35d0704af79142dec295355f6939018de35460@188.40.66.173:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "As1WcJsvf1NQgRlS8a2PHuueKhHlCYrFe3VooMxQdflR"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "rxybwKyxbFx5JJchA2fDMvO4/dqY3W3H8iNOyvq4NGsqwVVcsa8KcqrWJxCJfmZ2MoijZBzrfVRCFlfIqCHl1Q=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "ulume",
+            "amount": "1000000000"
+          }
+        ],
+        "max_deposit_period": "259200s",
+        "voting_period": "172800s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.400000000000000000",
+        "min_initial_deposit_ratio": "0.002500000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "10800s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "ulume",
+            "amount": "5000000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      },
+      "constitution": ""
+    },
+    "group": {
+      "group_seq": "0",
+      "groups": [],
+      "group_members": [],
+      "group_policy_seq": "0",
+      "group_policies": [],
+      "proposal_seq": "0",
+      "proposals": [],
+      "votes": []
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "*"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0",
+        "params": {
+          "upgrade_timeout": {
+            "height": {
+              "revision_number": "0",
+              "revision_height": "0"
+            },
+            "timestamp": "600000000000"
+          }
+        }
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "*"
+          ]
+        }
+      }
+    },
+    "lumeraid": {
+      "params": {}
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.137500000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ulume",
+        "inflation_rate_change": "0.075000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.050000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "3942000"
+      }
+    },
+    "nft": {
+      "classes": [],
+      "entries": []
+    },
+    "params": null,
+    "runtime": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.100000000000000000",
+        "downtime_jail_duration": "3600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.001000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": "50",
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "ulume",
+        "min_commission_rate": "0.050000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "supernode": {
+      "params": {
+        "minimum_stake_for_sn": {
+          "denom": "ulume",
+          "amount": "10000000000"
+        },
+        "inactivity_penalty_period": "86400s",
+        "reporting_threshold": "10",
+        "slashing_threshold": "5",
+        "slashing_fraction": "0.010000000000000000",
+        "evidence_retention_period": "180days",
+        "metrics_thresholds": ""
+      }
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Everybody",
+          "addresses": []
+        },
+        "instantiate_default_permission": "Everybody"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    }
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "0"
+      }
+    }
+  }
+}
